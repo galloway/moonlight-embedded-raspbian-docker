@@ -5,7 +5,8 @@
 #
 
 FROM raspbian/stretch
-COPY qemu-arm-static /usr/bin
+#not needed since I'm building on arm
+#COPY qemu-arm-static /usr/bin
 
 RUN sudo apt-get update
 
