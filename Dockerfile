@@ -1,7 +1,7 @@
 # Dockerized version of the moonlight-embedded. (https://github.com/irtimmer/moonlight-embedded)
 #
 # Run syntax: 
-#	docker build --tag moonlight-embedded .
+#	docker build --tag moonlight/embedded:latest .
 #
 
 FROM raspbian/stretch
