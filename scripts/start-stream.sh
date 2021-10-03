@@ -6,6 +6,6 @@ devices="--device=/dev/vchiq -v /dev/input:/dev/input -v /run/udev:/run/udev"
 
 dcmd="docker run --rm -v $HOME/volumes/moonlight:/home/moonlight-user $devices moonlight/embedded"
 
-dargs="stream $gfe_host -app Desktop"
+dargs="stream $gfe_host -app Desktop -quitappafter"
 
 eval $dcmd $dargs $@ &
