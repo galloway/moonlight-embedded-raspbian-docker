@@ -7,4 +7,4 @@ Dockerfile for building moonlight-embedded/raspbian image on an rpi4
 
 `start-stream.sh` is how I launch straight into desktop streaming with moonlight.
 
-`quit-stream.sh` is handy to call on the client if your stream needs to be completely disconnected (crashes, audio on host stuck to NVIDIA virtual device, etc.)
+`quit-stream.sh` is handy to call on the client if your stream needs to be completely disconnected
